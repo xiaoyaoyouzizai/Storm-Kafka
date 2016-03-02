@@ -17,6 +17,7 @@ import storm.kafka.bolt.KafkaBolt;
 import storm.kafka.bolt.mapper.FieldNameBasedTupleToKafkaMapper;
 import storm.kafka.bolt.selector.DefaultTopicSelector;
 
+// stage 2
 public class App {
 	private static final String KAFKA_READER = "kafka-reader";
 	private static final String SPLIT_BOLT = "split-bolt";
